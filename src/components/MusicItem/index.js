@@ -31,7 +31,7 @@ const MusicItem = props => {
       </TrackInfoContainer>
       <DurationDeleteContainer>
         <Duration>{duration}</Duration>
-        <DeleteButton type="button" testid="delete" onClick={onDeleteTrack}>
+        <DeleteButton type="button" data-testid="delete" onClick={onDeleteTrack}>
           <AiOutlineDelete size={25} />
         </DeleteButton>
       </DurationDeleteContainer>
